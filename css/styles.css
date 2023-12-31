@@ -4,7 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(9, 51, 32);
+}
+
+body {
+    background-image: url(../assets/images/stock_mountain_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 li, a, button {
@@ -17,14 +23,18 @@ li, a, button {
 
 header {
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
    align-items: center;
-   padding-top: 10px;
+   background-color:  rgb(37, 40, 65);
+   padding-top: 0px;
    padding: 30px, 10%;
 }
 
 .logo {
+    width: 6%;
+    height: auto;
     cursor: pointer;
+    margin-right: auto;
     padding-left: 10px;
 }
 
@@ -46,10 +56,11 @@ header {
 }
 
 .nav__links li a:hover {
-    color: burlywood;
+    color: rgba(206, 191, 60, 0.986);
 }
 
 button {
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(85, 57, 5, 1);
     border: none;
