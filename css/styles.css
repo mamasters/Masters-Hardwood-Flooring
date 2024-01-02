@@ -81,24 +81,24 @@ p, h1, h2 {
 /* -- Navbar End -- */
 
 /* -- About Us Start -- */
-.columns {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
+    .about__container {
+        display: flex;
+    }
 
-.column {
-    width: 48%;
-}
-
-@media (max-width:768px) {
-    .columns {
-        flex-direction: column;
+    #team__photo {
+        width: 50%;
+        height: auto;
     }
 
     .column {
-        width: 100%;
-        margin-bottom: 20px;
+        flex: 50%;
     }
-}
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
 /* -- About Us End -- */
