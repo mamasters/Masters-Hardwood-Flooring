@@ -25,16 +25,15 @@ p, h1, h2 {
     font-family: "Montserrat", sans-serif;
 }
 
-header {
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   background-color:  rgb(37, 40, 65);
-   padding-top: 0px;
-   padding: 30px, 10%;
-}
-
 /* -- Navbar Start -- */
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color:  rgb(37, 40, 65);
+        padding-top: 0px;
+        padding: 30px, 10%;
+    }
 
     .logo {
         width: 6%;
@@ -79,9 +78,9 @@ header {
     button:hover {
         background-color: rgba(85, 57, 5, 0.65);
     }
-
 /* -- Navbar End -- */
 
+/* -- About Us Start -- */
 .columns {
     display: flex;
     justify-content: space-between;
@@ -102,3 +101,4 @@ header {
         margin-bottom: 20px;
     }
 }
+/* -- About Us End -- */
