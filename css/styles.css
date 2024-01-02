@@ -73,3 +73,24 @@ button {
 button:hover {
     background-color: rgba(85, 57, 5, 0.65);
 }
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    width: 48%;
+}
+
+@media (max-width:768px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
