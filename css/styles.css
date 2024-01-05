@@ -1,4 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Montserrat:400');
+
+/* 
+        Color Scheme
+--text: rgb(20, 14, 11);
+--background: rgb(250, 246, 245);
+--primary: rgb(169, 116, 102);
+--secondary: rgb(202, 202, 160);
+--accent: rgb(124, 143, 182);
+ */
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+ h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+  }
+  
+  li, a, button {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: rgb(20, 14, 11);
+      text-decoration: none;
+  }
 
 * {
     box-sizing: border-box;
@@ -7,22 +43,9 @@
 }
 
 body {
-    background-color: aliceblue;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-}
-
-li, a, button {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #e7edf0;
-    text-decoration: none;
-}
-
-p, h1, h2 {
-    font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  background-color: rgb(250, 246, 245);
 }
 
 /* -- Navbar Start -- */
@@ -30,7 +53,7 @@ p, h1, h2 {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color:  rgb(37, 40, 65);
+        background-color: rgb(169, 116, 102);
         padding-top: 0px;
         padding: 30px, 10%;
     }
@@ -43,10 +66,6 @@ p, h1, h2 {
         padding-left: 10px;
     }
 
-    .cta {
-        padding-right: 50px;
-    }
-
     .nav__links {
         list-style: none;
     }
@@ -57,17 +76,19 @@ p, h1, h2 {
     }
 
     .nav__links li a {
+        font-weight: bold;
+        color: rgb(20, 14, 11);
         transition: all 0.3s ease 0s;
     }
 
     .nav__links li a:hover {
-        color: rgba(165, 212, 226, 0.986);
+        color: rgb(250, 246, 245);
     }
 
     button {
         margin-left: 20px;
         padding: 9px 25px;
-        background-color: rgba(85, 57, 5, 1);
+        background-color: rgb(202, 202, 160);
         border: none;
         border-radius: 50px;
         cursor: pointer;
@@ -76,29 +97,24 @@ p, h1, h2 {
     }
 
     button:hover {
-        background-color: rgba(85, 57, 5, 0.65);
+        background-color: rgb(169, 116, 102, .75);
     }
 /* -- Navbar End -- */
 
-/* -- About Us Start -- */
-    .about__container {
-        display: flex;
-    }
+/*  About Us Start  */
+.about__container {
+    background-color: rgb(202, 202, 160);
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    max-width: 600px;
+}
 
-    #team__photo {
-        width: 50%;
-        height: auto;
-    }
+.image__team {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+/*  About Us End  */
 
-    .column {
-        flex: 50%;
-    }
-
-    .left {
-        text-align: left;
-    }
-
-    .right {
-        text-align: right;
-    }
-/*-- About Us End -- */
