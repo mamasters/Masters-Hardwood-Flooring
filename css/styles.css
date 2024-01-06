@@ -59,11 +59,11 @@ body {
     }
 
     .logo {
-        width: 6%;
-        height: auto;
+        margin: 5px;
+        width: auto;
+        height:100px;
         cursor: pointer;
         margin-right: auto;
-        padding-left: 10px;
     }
 
     .nav__links {
@@ -85,6 +85,10 @@ body {
         color: rgb(250, 246, 245);
     }
 
+    .cta {
+        padding: 10px;
+    }
+
     button {
         margin-left: 20px;
         padding: 9px 25px;
@@ -97,7 +101,7 @@ body {
     }
 
     button:hover {
-        background-color: rgb(169, 116, 102, .75);
+        background-color: rgb(250, 246, 245);
     }
 /* -- Navbar End -- */
 
