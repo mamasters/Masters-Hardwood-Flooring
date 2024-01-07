@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Montserrat:400');
 
 /* 
-        Color Scheme
---text: rgb(20, 14, 11);
---background: rgb(250, 246, 245);
---primary: rgb(169, 116, 102);
---secondary: rgb(202, 202, 160);
---accent: rgb(124, 143, 182);
+--text: rgb(14, 23, 15);
+--background: rgb(249, 251, 249);
+--primary: rgb(105, 165, 117);
+--secondary: rgb(167, 187, 202);
+--accent: rgb(138, 145, 184);
+
  */
 
 html {font-size: 100%;} /* 16px */
@@ -32,7 +32,7 @@ small {font-size: 0.750rem; /* 12px */}
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       font-size: 16px;
-      color: rgb(20, 14, 11);
+      color: rgb(14, 23, 15);
       text-decoration: none;
   }
 
@@ -45,7 +45,7 @@ small {font-size: 0.750rem; /* 12px */}
 body {
   font-family: 'Montserrat';
   font-weight: 400;
-  background-color: rgb(250, 246, 245);
+  background-color: rgb(249, 251, 249);
 }
 
 /* -- Navbar Start -- */
@@ -53,7 +53,7 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color: rgb(169, 116, 102);
+        background-color: rgb(167, 187, 202);
         padding-top: 0px;
         padding: 30px, 10%;
     }
@@ -77,12 +77,12 @@ body {
 
     .nav__links li a {
         font-weight: bold;
-        color: rgb(20, 14, 11);
+        color: rgb(14, 23, 15);
         transition: all 0.3s ease 0s;
     }
 
     .nav__links li a:hover {
-        color: rgb(250, 246, 245);
+        color: rgb(249, 251, 249);
     }
 
     .cta {
@@ -90,9 +90,8 @@ body {
     }
 
     button {
-        margin-left: 20px;
         padding: 9px 25px;
-        background-color: rgb(202, 202, 160);
+        background-color: rgb(105, 165, 117);
         border: none;
         border-radius: 50px;
         cursor: pointer;
@@ -101,13 +100,13 @@ body {
     }
 
     button:hover {
-        background-color: rgb(250, 246, 245);
+        background-color: rgb(249, 251, 249);
     }
 /* -- Navbar End -- */
 
 /*  About Us Start  */
 .about__container {
-    background-color: rgb(202, 202, 160);
+    background-color: rgb(105, 165, 117, .7);
     margin: 20px;
     padding-left: 20px;
     padding-top: 20px;
@@ -122,3 +121,15 @@ body {
 }
 /*  About Us End  */
 
+footer {
+    background-color: rgb(167, 187, 202);
+}
+
+form {
+    border-style: groove; 
+    border-width: thick;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(105, 165, 117);
+}
