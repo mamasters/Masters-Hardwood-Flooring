@@ -4,7 +4,7 @@
 --text: rgb(14, 23, 15);
 --background: rgb(249, 251, 249);
 --primary: rgb(105, 165, 117);
---secondary: #a0b5c5;
+--secondary: 166, 186, 201;
 --accent: rgb(138, 145, 184);
 
  */
@@ -60,7 +60,7 @@ footer {
 
 form {
     border-style: groove; 
-    border-width: thick;
+    border-width: 2px;
     margin: 5px;
     padding: 5px;
     display: inline-block;
@@ -85,9 +85,9 @@ button:hover {
 
 .gallery {
     margin: 5px;
+    border-style: groove;
+    border: 2px black;
     display: inline-block;
-    border: 1px solid rgb(107, 108, 114); 
-    width: 200px;
 }
 
 .gallery .description {
@@ -134,16 +134,18 @@ button:hover {
 .primary__section {
     background-color: rgb(128, 179, 138);
     border-style: groove;
-    border-width: thick;
+    border-width: 2px;
     margin: 5px;
     padding: 5px;
 }
 
-.quote__form input, textarea {
+.quote__form input[type=text], input[type=tel], input[type=email], input[type=submit], textarea {
     font-family: "Montserrat";
+    font-weight: bold;
     background-color: rgb(249, 251, 249);
     border-style: groove;
-    border-width: 3px;
+    border-radius: 10px;
+    border-width: 2px;
     width: 100%;
     height: auto;
     padding: 12px 20px;
@@ -151,8 +153,21 @@ button:hover {
     box-sizing: border-box;
 }
 
+#about__us {
+    max-width: 500px;
+}
+
+.quote__form input[type=submit]:hover {
+    background-color: rgb(138, 144, 183);
+  }
+
 .quote__form label {
     font-family: "Montserrat";
     font-weight: 900;
-    justify-content: left;
 }
+
+.quote__form h3 {
+    text-align: center;
+}
+
+
