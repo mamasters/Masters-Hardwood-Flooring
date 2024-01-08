@@ -4,7 +4,7 @@
 --text: rgb(14, 23, 15);
 --background: rgb(249, 251, 249);
 --primary: rgb(105, 165, 117);
---secondary: rgb(167, 187, 202);
+--secondary: #a0b5c5;
 --accent: rgb(138, 145, 184);
 
  */
@@ -43,92 +43,100 @@ body {
   background-color: rgb(249, 251, 249);
 }
 
-    header {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background-color: rgb(167, 187, 202);
-        padding-top: 0px;
-    }
-
-    .logo {
-        margin: 5px;
-        width: auto;
-        height:100px;
-        cursor: pointer;
-        margin-right: auto;
-    }
-
-    .nav__links {
-        list-style: none;
-    }
-
-    .nav__links li {
-        display: inline-block;
-        padding: 0px 20px;
-    }
-
-    .nav__links li a {
-        font-weight: bold;
-        color: rgb(14, 23, 15);
-        transition: all 0.3s ease 0s;
-    }
-
-    .nav__links li a:hover {
-        color: rgb(249, 251, 249);
-    }
-
-    .cta {
-        padding: 10px;
-    }
-
-    button {
-        padding: 9px 25px;
-        background-color: rgb(105, 165, 117);
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-        font-weight: bold;
-    }
-
-    button:hover {
-        background-color: rgb(249, 251, 249);
-    }
-/* -- Navbar End -- */
-
-/*  About Us Start  */
-.about__container {
-    background-color: rgb(105, 165, 117, .7);
-    border-style: groove;
-    border-width: thick;
-    margin: 10px;
-    padding: 10px;
-    max-width: 600px;
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #a0b5c5;
+    padding: 5px;    
 }
-
-.image__team {
-    margin-top: 20px;
-    padding-left: 10px;
-}
-/*  About Us End  */
 
 footer {
+    display: block;
     background-color: rgb(167, 187, 202);
+    padding: 5px;
+    border-style: ridge;
 }
 
 form {
     border-style: groove; 
     border-width: thick;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     display: inline-block;
-    background-color: rgb(105, 165, 117);
+    background-color: rgb(128, 179, 138);
+    max-width: 500px;
+    width: auto;
 }
 
-.quote__form {
-    max-width: 500px;
-    justify-content: center;
+button {
+    padding: 9px 25px;
+    background-color: rgb(105, 165, 117);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(249, 251, 249);
+}
+
+.gallery {
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid rgb(107, 108, 114); 
+    width: 200px;
+}
+
+.gallery .description {
+    padding: 5px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin: 5px;
+    width: auto;
+    height:100px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    font-weight: bold;
+    color: rgb(14, 23, 15);
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(249, 251, 249);
+}
+
+.cta {
+    padding: 10px;
+}
+
+.primary__section {
+    background-color: rgb(128, 179, 138);
+    border-style: groove;
+    border-width: thick;
+    margin: 5px;
+    padding: 5px;
 }
 
 .quote__form input, textarea {
