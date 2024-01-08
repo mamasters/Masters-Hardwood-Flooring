@@ -23,12 +23,7 @@ h5 {font-size: 1.333rem; /* 21.28px */}
 
 small {font-size: 0.750rem; /* 12px */}
 
- h1, h2, h3, h4, h5 {
-    font-family: 'Montserrat';
-    font-weight: 700;
-  }
-  
-  li, a, button, label {
+li, a, button, label {
       font-family: "Montserrat";
       font-weight: 500;
       font-size: 16px;
@@ -48,14 +43,12 @@ body {
   background-color: rgb(249, 251, 249);
 }
 
-/* -- Navbar Start -- */
     header {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         background-color: rgb(167, 187, 202);
         padding-top: 0px;
-        padding: 30px, 10%;
     }
 
     .logo {
@@ -107,11 +100,10 @@ body {
 /*  About Us Start  */
 .about__container {
     background-color: rgb(105, 165, 117, .7);
-    margin: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    border-style: groove;
+    border-width: thick;
+    margin: 10px;
+    padding: 10px;
     max-width: 600px;
 }
 
