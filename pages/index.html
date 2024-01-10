@@ -35,25 +35,33 @@
     </header>
 
     <main>
-        <div class="gallery">
-            <img src="../assets/images/gallery_1.jpg" alt="Furnished living room with wood floor.">
-            <div class="description">First example</div>
+        <div class="container">
+            <div class="slider-wrapper">
+                <div class="slider">
+
+                </div>
+            </div>
         </div>
 
-        <div class="gallery">
-            <img src="../assets/images/gallery_2.jpg" alt="Furnished bedroom room with wood floor.">
-            <div class="description">Second example</div>
-        </div>
+                
+                    <img id="slide-1" src="../assets/images/gallery_1.jpg" alt="Furnished living room with wood floor.">
+                    <!-- <div class="description">First example</div> -->
+                
 
-        <div class="gallery">
-            <img src="../assets/images/gallery_3.jpg" alt="Hallway with wood floor.">
-            <div class="description">Third example</div>
-        </div>
+                
+                    <img id="slide-2" src="../assets/images/gallery_2.jpg" alt="Furnished bedroom room with wood floor.">
+                    <!-- <div class="description">Second example</div> -->
+                
 
-        <div class="gallery">
-            <img src="../assets/images/gallery_4.jpg" alt="Chair with wood floor.">
-            <div class="description">Fourth example</div>
-        </div>
+                
+                    <img id="slide-3" src="../assets/images/gallery_3.jpg" alt="Hallway with wood floor.">
+                    <!-- <div class="description">Third example</div> -->
+                
+
+            
+                    <img id="slide-4" src="../assets/images/gallery_4.jpg" alt="Chair with wood floor.">
+                    <!-- <div class="description">Fourth example</div> -->
+        
 
             <div class="primary__section" id="about__us">
                 <h2>About Us</h2>
@@ -75,7 +83,7 @@
         </div>
 
         <div class="quote__form">
-            <form action="index.php" method="post">
+            <form onsubmit="sendEmail (); reset(); return false">
 
                 <h2>Quote Request Form</h2> <br>
 
@@ -113,7 +121,7 @@
                 <textarea rows="10" 
                           cols="30"
                           placeholder="Please enter a brief description of your project.&#10E.g. Interested in replacing approximately 800 square feet of upstairs carpet with hardwood. I am generally available to meet in the afternoons."></textarea>
-                <input type="submit">
+                <button type="submit">Submit</button>
             </form>
         </div> 
 
@@ -125,8 +133,8 @@
         <a href="mailto:mamasters@webdev.com">mamasters@webdev.com</a>
 
     </footer>
-
     <script src="../scripts/commonscripts.js"></script>
+
 </body>
 
 </html>

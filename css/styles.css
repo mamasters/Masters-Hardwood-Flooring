@@ -140,33 +140,6 @@ footer {
     }
 }
 
-
-.gallery {
-    margin: 5px;
-    border-style: groove;
-    border: 2px black;
-    display: inline-block;
-}
-
-.gallery .description {
-    font-family: 'Hedvig Letters Sans', sans-serif;
-    padding: 5px;
-    text-align: center;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-.primary__section {
-    background-color: rgb(177, 163, 133);
-    border-style: groove;
-    border-width: 2px;
-    margin: 5px;
-    padding: 5px;
-}
-
 form {
     border-style: groove; 
     border-width: 2px;
@@ -191,7 +164,7 @@ form {
     box-sizing: border-box;
 }
 
-.quote__form input[type=submit] {
+.quote__form button[type=submit] {
     font-family: 'Hedvig Letters Sans', sans-serif;
     font-size: larger;
     font-weight: bold;
@@ -207,7 +180,7 @@ form {
     box-sizing: border-box;
 }
 
-.quote__form input[type=submit]:hover {
+.quote__form button[type=submit]:hover {
     background-color: rgb(177, 163, 133);
 }
 

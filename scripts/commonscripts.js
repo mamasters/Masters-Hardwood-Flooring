@@ -22,7 +22,7 @@ form.addEventListener('submit', function(event) {
     const body = encodeURIComponent(`Hello,\n\nYou have received a quote request from ${firstName} ${lastName}.\nHere are the details:\n\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}\nProject: ${project}\n\nThank you.`);
 
     window.open('mailto:mastersm89@gmail.com?subject=subject&body=body');
-})
+}) 
 
 
    /*  const link = `mailto:${email}?subject=${subject}&body=${body}`; */
