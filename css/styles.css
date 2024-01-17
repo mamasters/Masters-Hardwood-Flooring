@@ -16,6 +16,10 @@
       --secondary: rgb(90, 58, 59);
       --accent: rgb(121, 107, 78);
     }
+
+    #author-email {
+        color: var(--text);
+    }
   }
 
 :root {
@@ -91,7 +95,7 @@ footer {
 
     .about-us p {
         text-align: left;
-        font-weight: var(--fw-light);
+        font-weight: var(--fw-normal);
         font-size: var(--fs-400);
     }
 
@@ -100,11 +104,13 @@ footer {
         padding: 5px;
         display: inline-block;
         background-color: var(--primary);
+        color: var(--text);
     }
 
 
     .quote-form input[type=text], input[type=tel], input[type=email], textarea {
-        background-color: var(--text);
+        background-color: rgb(250, 250, 252);
+        color: var(--text);
         border-style: groove;
         border-radius: 10px;
         border-width: 2px;
@@ -116,9 +122,9 @@ footer {
     }
     
     .quote-form button[type=submit] {
-        font-size: larger;
-        font-weight: bold;
-        background-color: var(--text);
+        font-size: var(--fs-400);
+        font-weight: var(--fw-bold);
+        background-color: rgb(250, 250, 252);
         color: rgb(9, 10, 14);
         border-style: solid;
         border-radius: 10px;
@@ -136,6 +142,8 @@ footer {
     
     .quote-form label {
         color: var(--text);
+        font-size: var(--fs-400);
+        font-weight: var(--fw-bold);
     }
     
     .quote-form h2 {
